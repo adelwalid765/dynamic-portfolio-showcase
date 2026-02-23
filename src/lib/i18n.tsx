@@ -76,11 +76,12 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Projects
     'projects.title': 'My Projects',
-    'projects.web_apps': '3 responsive web applications built with HTML, CSS, and Bootstrap',
-    'projects.js_components': '10+ JavaScript UI components using DOM manipulation',
-    'projects.multi_page': 'Multi-page layouts with 5+ pages per project',
-    'projects.database': '2 academic database projects using Oracle Database',
-    'projects.view': 'View Project',
+    'projects.p1.title': 'Responsive Portfolio Website',
+    'projects.p1.desc': 'A fully responsive personal portfolio website featuring smooth animations, dark/light mode toggle, and multi-language support with a mobile-first design approach.',
+    'projects.p2.title': 'E-Commerce Landing Page',
+    'projects.p2.desc': 'A modern e-commerce product landing page with interactive product gallery, shopping cart UI, and animated transitions for a seamless user experience.',
+    'projects.p3.title': 'Interactive JS Components',
+    'projects.p3.desc': 'A collection of 10+ reusable JavaScript UI components including modals, sliders, accordions, and form validators built with vanilla JS and DOM manipulation.',
 
     // Testimonials
     'testimonials.title': 'Testimonials',
