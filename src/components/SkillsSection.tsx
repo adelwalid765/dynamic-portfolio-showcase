@@ -35,32 +35,19 @@ const SkillsSection = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <AnimatedSection delay={0.1}>
             <h3 className="font-semibold text-xl mb-6 text-gradient">{t('skills.technical')}</h3>
-            <div className="space-y-4">
+            <div className="flex flex-wrap gap-3">
               {technicalSkills.map((skill, i) => (
-                <motion.div
+                <motion.span
                   key={skill.name}
-                  initial={{ opacity: 0, x: -30 }}
-                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.05 }}
+                  whileHover={{ scale: 1.05, y: -3, boxShadow: '0 8px 24px hsl(var(--primary) / 0.08)' }}
+                  className="px-4 py-2.5 rounded-xl bg-secondary border border-border text-sm font-medium text-foreground cursor-default transition-colors hover:border-primary/30"
                 >
-                  <div className="flex justify-between mb-1">
-                    <span className="text-sm font-medium font-mono-code">{skill.name}</span>
-                    <span className="text-xs text-muted-foreground">{skill.level}%</span>
-                  </div>
-                  <div className="h-2.5 bg-secondary rounded-full overflow-hidden">
-                    <motion.div
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${skill.level}%` }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: i * 0.05, ease: 'easeOut' }}
-                      className="h-full rounded-full relative"
-                      style={{ background: `linear-gradient(90deg, hsl(var(${skill.color})), hsl(var(${skill.color}) / 0.6))` }}
-                    >
-                      <div className="absolute inset-0 shimmer" />
-                    </motion.div>
-                  </div>
-                </motion.div>
+                  {skill.name}
+                </motion.span>
               ))}
             </div>
           </AnimatedSection>
