@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <button onClick={() => scrollTo('home')} className="text-xl font-bold text-gradient">
-          {'<Adel />'}
+          Adel
         </button>
 
         {/* Desktop nav */}
