@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useI18n } from '@/lib/i18n';
 import { ArrowDown, Download, Mail } from 'lucide-react';
 import heroBg from '@/assets/hero-bg.jpg';
+import adelPhoto from '@/assets/adel-photo.jpeg';
 
 const HeroSection = () => {
   const { t } = useI18n();
