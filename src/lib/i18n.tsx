@@ -50,18 +50,16 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Experience
     'experience.title': 'Experience',
-    'experience.depi.title': 'Front-End Web Dev Trainee',
-    'experience.depi.company': 'DEPI Initiative',
-    'experience.depi.desc1': 'Completed 5 responsive web pages using HTML5, CSS3, and Bootstrap 5',
-    'experience.depi.desc2': 'Built 4 reusable UI components following clean code principles',
-    'experience.depi.desc3': 'Implemented 3 JavaScript interactive features improving UX',
-    'experience.depi.desc4': 'Contributed to 20+ Git commits using GitHub',
-    'experience.iti.title': 'Front-End Web Dev Trainee',
-    'experience.iti.company': 'ITI Initiative — 1 Month Intensive',
-    'experience.iti.desc1': 'Collaborated within a 4-member team to meet weekly milestones',
-    'experience.iti.desc2': 'Developed 3 complete front-end web projects from scratch',
-    'experience.iti.desc3': 'Implemented responsive designs for all screen sizes',
-    'experience.iti.desc4': 'Solved 15+ JavaScript programming challenges',
+    'experience.depi.title': 'React Developer Trainee',
+    'experience.depi.company': 'WE (Telecom Egypt) — via DEPI | 6 Months Standard Track',
+    'experience.depi.desc1': 'Contributed to a full-scale web project within a 5-member Agile team, ensuring efficient code integration and teamwork',
+    'experience.depi.desc2': 'Built reusable UI components using React.js, focusing on performance and responsive design',
+    'experience.depi.desc3': 'Managed application state and integrated front-end logic to deliver a seamless user experience',
+    'experience.iti.title': 'Web Development Trainee',
+    'experience.iti.company': 'ITI (Information Technology Institute) — 1 Month Intensive Training',
+    'experience.iti.desc1': 'Mastered the essentials of web development, including HTML5, CSS3, and JavaScript (ES6)',
+    'experience.iti.desc2': 'Utilized Bootstrap framework to develop responsive and modern layouts quickly and efficiently',
+    'experience.iti.desc3': 'Developed static web pages from scratch, focusing on clean code and best practices',
 
     // Services
     'services.title': 'My Services',
