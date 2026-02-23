@@ -148,18 +148,16 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Experience
     'experience.title': 'الخبرة',
-    'experience.depi.title': 'متدرب تطوير واجهات أمامية',
-    'experience.depi.company': 'مبادرة DEPI',
-    'experience.depi.desc1': 'أنجزت 5 صفحات ويب متجاوبة باستخدام HTML5 و CSS3 و Bootstrap 5',
-    'experience.depi.desc2': 'بنيت 4 مكونات واجهة مستخدم قابلة لإعادة الاستخدام',
-    'experience.depi.desc3': 'نفذت 3 ميزات تفاعلية بـ JavaScript لتحسين تجربة المستخدم',
-    'experience.depi.desc4': 'ساهمت بأكثر من 20 commit على GitHub',
-    'experience.iti.title': 'متدرب تطوير واجهات أمامية',
-    'experience.iti.company': 'مبادرة ITI — تدريب مكثف شهر واحد',
-    'experience.iti.desc1': 'تعاونت ضمن فريق من 4 أعضاء لتحقيق الأهداف الأسبوعية',
-    'experience.iti.desc2': 'طورت 3 مشاريع واجهات أمامية كاملة من الصفر',
-    'experience.iti.desc3': 'نفذت تصميمات متجاوبة لجميع أحجام الشاشات',
-    'experience.iti.desc4': 'حللت أكثر من 15 تحدي برمجي بـ JavaScript',
+    'experience.depi.title': 'متدرب مطور React',
+    'experience.depi.company': 'WE (المصرية للاتصالات) — عبر DEPI | 6 أشهر مسار قياسي',
+    'experience.depi.desc1': 'ساهمت في مشروع ويب متكامل ضمن فريق Agile من 5 أعضاء مع ضمان تكامل الكود والعمل الجماعي',
+    'experience.depi.desc2': 'بنيت مكونات واجهة مستخدم قابلة لإعادة الاستخدام باستخدام React.js مع التركيز على الأداء والتصميم المتجاوب',
+    'experience.depi.desc3': 'أدرت حالة التطبيق ودمجت منطق الواجهة الأمامية لتقديم تجربة مستخدم سلسة',
+    'experience.iti.title': 'متدرب تطوير ويب',
+    'experience.iti.company': 'ITI (معهد تكنولوجيا المعلومات) — تدريب مكثف شهر واحد',
+    'experience.iti.desc1': 'أتقنت أساسيات تطوير الويب شاملة HTML5 و CSS3 و JavaScript (ES6)',
+    'experience.iti.desc2': 'استخدمت إطار Bootstrap لتطوير تخطيطات متجاوبة وحديثة بكفاءة',
+    'experience.iti.desc3': 'طورت صفحات ويب ثابتة من الصفر مع التركيز على الكود النظيف وأفضل الممارسات',
 
     // Services
     'services.title': 'خدماتي',

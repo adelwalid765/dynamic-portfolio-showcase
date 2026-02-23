@@ -23,7 +23,6 @@ const ExperienceSection = () => {
         t('experience.iti.desc1'),
         t('experience.iti.desc2'),
         t('experience.iti.desc3'),
-        t('experience.iti.desc4'),
       ],
     },
   ];
