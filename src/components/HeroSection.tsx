@@ -94,13 +94,8 @@ const HeroSection = () => {
             transition={{ delay: 0.4, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative flex-shrink-0"
           >
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-primary/30 glow overflow-hidden bg-secondary flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-primary/20 flex items-center justify-center">
-                  <span className="text-4xl font-bold text-primary">A</span>
-                </div>
-                <p className="text-xs font-mono-code">Your Photo Here</p>
-              </div>
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-primary/30 glow overflow-hidden bg-secondary">
+              <img src={adelPhoto} alt="Adel Walid Adel" className="w-full h-full object-cover" />
             </div>
             {/* Decorative ring */}
             <motion.div
