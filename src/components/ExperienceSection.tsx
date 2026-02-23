@@ -14,7 +14,6 @@ const ExperienceSection = () => {
         t('experience.depi.desc1'),
         t('experience.depi.desc2'),
         t('experience.depi.desc3'),
-        t('experience.depi.desc4'),
       ],
     },
     {
@@ -24,7 +23,6 @@ const ExperienceSection = () => {
         t('experience.iti.desc1'),
         t('experience.iti.desc2'),
         t('experience.iti.desc3'),
-        t('experience.iti.desc4'),
       ],
     },
   ];
